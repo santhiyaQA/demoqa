@@ -12,6 +12,7 @@ public class Inform {
 		System.setProperty("webdriver.chrome.driver", Chropath);
 		driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
+		System.out.println("Sandy");
 
 	}
 
